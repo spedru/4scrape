@@ -6,7 +6,6 @@
 #
 use LWP::Simple;
 use JSON qw( decode_json );
-use Data::Dumper;
 use Try::Tiny;
 
 system("color 09");

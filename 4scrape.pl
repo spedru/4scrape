@@ -75,6 +75,7 @@ while (1) {
 	} else {
 	    debug("[ FAILED ] " . $response->status_line );
 	}
+	system("title 4scrape/$board/$thread");
 	debug("[  INFO  ] Resting for 90 seconds, press ^C to cancel");
 	sleep(90);
 }

@@ -178,5 +178,7 @@ sub clean_a_shitpost {
 	$shitpost =~ s/<a href="\d+#p\d+//g;
 	$shitpost =~ s/<a href="\d+//g;
 	$shitpost =~ s/<\/a>//g;
+	$shitpost =~ s/<pre class="prettyprint">//g;
+	$shitpost =~ s/<\/pre>//g;
 	return $shitpost;
 }
